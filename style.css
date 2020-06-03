@@ -1,0 +1,88 @@
+body{
+    background-image: url(honey.jpg);
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0px;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+#main-header{
+    background-color: #000000 ;
+    color:#36ec09;
+}
+#navbar{
+    background-color : rgb(49, 47, 47);
+    color: #ffffff;
+
+    
+}
+#navbar ul{
+    padding: 0px;
+    list-style: none;
+}
+
+#navbar li{
+        display: inline; 
+}
+#navbar a{
+    color: #36ec09;
+    text-decoration: none;
+    font-size: 16px;
+    padding-right: 20px;
+}
+#showcase{
+    background-color: #000000;
+    background-position: center;
+    min-height: 100px;
+    color:#ffffff;
+    text-align: center;
+    font-size: 13px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: oblique;
+    margin-bottom: 20px;
+}
+#main{
+    float: left;
+    width: 70%;
+    padding: 0 30px;
+    box-sizing: border-box;
+    color: #36ec09;
+
+}
+#sidebar{
+    float: right;
+    width: 30%;
+    padding: 10px;
+    box-sizing: border-box;
+    color: #36ec09;
+
+
+}
+#mainfooter{
+    text-align: center;
+    color: #ffffff;
+    background-color: #000000;
+    margin-top: 50px;
+    
+}
+/* responsive */
+@media(max-width:600px){
+    #main{
+        width: 100%;
+        float: none;
+
+    }
+    #sidebar{
+        width: 100%;
+        float: none;
+    }
+    #navbar li{
+        width: 100%;
+        float: left;
+    }
+}
