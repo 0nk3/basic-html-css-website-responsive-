@@ -25,9 +25,9 @@ body{
     padding: 0px;
     list-style: none;
 }
-
 #navbar li{
         display: inline; 
+
 }
 #navbar a{
     color: #36ec09;

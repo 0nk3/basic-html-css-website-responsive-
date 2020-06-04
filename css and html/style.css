@@ -18,21 +18,31 @@ body{
 #navbar{
     background-color : rgb(49, 47, 47);
     color: #ffffff;
+    position: relative;
+    max-width: 100%;border-radius: 40px;
+    overflow: hidden;
+    box-shadow: 0 10px 40px rgba(150, 172,177,0.8);
+
 
     
 }
 #navbar ul{
-    padding: 0px;
+    padding: 0px 50px;
     list-style: none;
 }
 #navbar li{
         display: inline; 
+        text-decoration: none;
+        transition: 0.3s;
+        margin: 0 7px;
+
 }
 #navbar a{
     color: #36ec09;
     text-decoration: none;
     font-size: 16px;
     padding-right: 20px;
+
 }
 #showcase{
     background-color: #000000;
